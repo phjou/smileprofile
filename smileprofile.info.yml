@@ -39,6 +39,9 @@ dependencies:
   - tour
   - automated_cron
   - paragraphs
+  - admin_toolbar
+  - features
+  - smile_demo
 themes:
   - bartik
   - seven
