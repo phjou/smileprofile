@@ -43,7 +43,7 @@ dependencies:
   - features
   - smile_demo
 themes:
-  - bartik
+  - smile_demo_theme
   - seven
 
 # Information added by Drupal.org packaging script on 2017-02-01
