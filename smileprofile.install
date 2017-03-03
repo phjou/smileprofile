@@ -71,4 +71,10 @@ function smileprofile_install() {
 
   // Enable the admin theme.
   \Drupal::configFactory()->getEditable('node.settings')->set('use_admin_theme', TRUE)->save(TRUE);
+
+  // Set the smile theme as default.
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('default', 'smile_demo_theme')
+    ->save();
 }
