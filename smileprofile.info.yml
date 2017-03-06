@@ -44,6 +44,7 @@ dependencies:
   - smile_demo
 themes:
   - smile_demo_theme
+  - drupal8_zymphonies_theme
   - seven
 
 # Information added by Drupal.org packaging script on 2017-02-01
